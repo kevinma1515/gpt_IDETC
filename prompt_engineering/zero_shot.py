@@ -67,7 +67,8 @@ design_prompts_unique = [
 if __name__ == '__main__':
     openai.api_key = API
 
-    design_prompts = {"base": design_prompts_base,
+    design_prompts = {
+                      "base": design_prompts_base,
                       "unique": design_prompts_unique,
                       "diverse": design_prompts_diverse,
                       "novel": design_prompts_novel}
@@ -95,8 +96,9 @@ if __name__ == '__main__':
 
             out = Path(f"data/few_shot/{name}_{i}.csv")
             out.parent.mkdir(parents=True, exist_ok=True)
+            print(f"Saving to {out}")
 
-            with out.open('w', newline='\n') as f:
+            with out.open('w', newline='\n', encoding='utf-8') as f:
                 writer = csv.writer(f)
                 writer.writerows([[x] for x in result.split("\n")])
 
