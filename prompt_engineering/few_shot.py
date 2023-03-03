@@ -73,23 +73,27 @@ if __name__ == '__main__':
         for count_prompt, prompt in enumerate(prompts):
             print(prompt)
             print("--------------------------------------------------")
-            response = openai.Completion.create(
-                model="text-davinci-003",
-                prompt=prompt,
-                temperature=0.9,
-                max_tokens=4000,
-                top_p=1.0,
-                frequency_penalty=0.0,
-                presence_penalty=0.0,
-            )
-
-            result = response['choices'][0]['text']
-            print(result)
 
             out = Path(f"data/few_shot/design_prompt_{count_design}_{count_prompt}.csv")
-            out.parent.mkdir(parents=True, exist_ok=True)
-            print(f"Saving to {out}")
+            if not out.exists():
+                response = openai.Completion.create(
+                    model="text-davinci-003",
+                    prompt=prompt,
+                    temperature=0.9,
+                    max_tokens=4097-len(prompt),
+                    top_p=1.0,
+                    frequency_penalty=0.0,
+                    presence_penalty=0.0,
+                )
 
-            with out.open('w', newline='\n', encoding='utf-8') as f:
-                writer = csv.writer(f)
-                writer.writerows([[x] for x in result.split("\n")])
+                result = response['choices'][0]['text']
+                print(result)
+
+                out.parent.mkdir(parents=True, exist_ok=True)
+                print(f"Saving to {out}")
+
+                with out.open('w', newline='\n', encoding='utf-8') as f:
+                    writer = csv.writer(f)
+                    writer.writerows([[x] for x in result.split("\n")])
+            else:
+                print(f"Prompt exists already")
