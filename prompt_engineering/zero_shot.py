@@ -16,6 +16,7 @@ design_prompts_base = [
     "Generate 100 design solutions for a measuring cup for the blind",
     "Generate 100 design solutions for a device to immobilize a human joint",
     "Generate 100 design solutions for a device to remove the shell from a peanut in areas with no electricity",
+    "Generate 100 design solutions for a device that can help a home conserve energy"
 ]
 
 design_prompts_novel = [
@@ -31,6 +32,7 @@ design_prompts_novel = [
     "Generate 100 novel design solutions for a measuring cup for the blind",
     "Generate 100 novel design solutions for a device to immobilize a human joint",
     "Generate 100 novel design solutions for a device to remove the shell from a peanut in areas with no electricity",
+    "Generate 100 novel design solutions for a device that can help a home conserve energy",
 ]
 
 design_prompts_diverse = [
@@ -46,6 +48,7 @@ design_prompts_diverse = [
     "Generate 100 diverse design solutions for a measuring cup for the blind",
     "Generate 100 diverse design solutions for a device to immobilize a human joint",
     "Generate 100 diverse design solutions for a device to remove the shell from a peanut in areas with no electricity",
+    "Generate 100 diverse design solutions for a device that can help a home conserve energy",
 ]
 
 design_prompts_unique = [
@@ -61,6 +64,7 @@ design_prompts_unique = [
     "Generate 100 unique design solutions for a measuring cup for the blind",
     "Generate 100 unique design solutions for a device to immobilize a human joint",
     "Generate 100 unique design solutions for a device to remove the shell from a peanut in areas with no electricity",
+    "Generate 100 unique design solutions for a device that can help a home conserve energy",
 ]
 
 
@@ -94,12 +98,10 @@ if __name__ == '__main__':
             result = response['choices'][0]['text']
             print(result)
 
-            out = Path(f"data/few_shot/{name}_{i}.csv")
+            out = Path(f"data/zero_shot/{name}_{i}.csv")
             out.parent.mkdir(parents=True, exist_ok=True)
             print(f"Saving to {out}")
 
             with out.open('w', newline='\n', encoding='utf-8') as f:
                 writer = csv.writer(f)
                 writer.writerows([[x] for x in result.split("\n")])
-
-

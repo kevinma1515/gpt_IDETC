@@ -9,13 +9,14 @@ design_prompts_base = [
     "Generate 100 design solutions for a new way to measure the passage of time",
     "Generate 100 design solutions for a device that disperses a light coating of a powdered substance over a surface",
     "Generate 100 design solutions for a device that allows people to get a book that is out of reach",
-    # "Generate 100 design solutions for an innovative product to froth milk",
+    "Generate 100 design solutions for an innovative product to froth milk",
     "Generate 100 design solutions for a way to minimize accidents from people walking and texting on a cell phone",
     "Generate 100 design solutions for a device to fold washcloths, hand towels, and small bath towels",
     "Generate 100 design solutions for a way to make drinking fountains accessible for all people",
     "Generate 100 design solutions for a measuring cup for the blind",
     "Generate 100 design solutions for a device to immobilize a human joint",
     "Generate 100 design solutions for a device to remove the shell from a peanut in areas with no electricity",
+    "Generate 100 design solutions for a device that can help a home conserve energy"
 ]
 
 
@@ -26,12 +27,13 @@ def load_human_responses():
         "../sentence_embeddings/data/amazonTurkDesPrompt3.csv",
         "../sentence_embeddings/data/amazonTurkDesPrompt4.csv",
         "../sentence_embeddings/data/amazonTurkDesPrompt5.csv",
+        "../sentence_embeddings/data/amazonTurkDesPrompt6.csv",
         "../sentence_embeddings/data/amazonTurkDesPrompt7.csv",
         "../sentence_embeddings/data/amazonTurkDesPrompt8.csv",
         "../sentence_embeddings/data/amazonTurkDesPrompt9.csv",
         "../sentence_embeddings/data/amazonTurkDesPrompt10.csv",
         "../sentence_embeddings/data/amazonTurkDesPrompt11.csv",
-        "../sentence_embeddings/data/amazonTurkDesPrompt12.csv",
+        "../sentence_embeddings/data/amazonTurkDesPromptNA.csv",
     ]
 
     human_prompts = []

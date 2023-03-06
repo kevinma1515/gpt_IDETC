@@ -1,102 +1,61 @@
 ""
 ""
-1. Hand-cranked rotary drum with rotating blades
-2. Compression spring with a clamping mechanism
-3. Hand-operated lever with a blade
-4. Hand-operated lever with shearing blades
-5. Hand-cranked drawer with a blade
-6. Hand-cranked nutcracker with a spike
-7. Hand-cranked nutcracker with a rotating blade
-8. Hand-operated lever with a rotating blade
-9. Hand-operated nutcracker with a spike
-10. Hand-cranked press with a piston
-11. Hand-cranked press with a rotating blade
-12. Lever with a rotating knife
-13. Lever with a spring-loaded blade
-14. Lever with a shearing blade
-15. Hand-cranked lever with a rotating blade
-16. Hand-cranked nutcracker with a rotating blade
-17. Hand-operated hammer with a blade
-18. Hand-operated clipper with a blade
-19. Hand-cranked ax with a blade
-20. Hand-operated blade with a two-handed grip
-21. Hand-operated blade with a sawtooth edge
-22. Hand-cranked roller with a blade
-23. Hand-cranked tumbler with a blade
-24. Hand-operated chisel with a cutting edge
-25. Hand-operated chisel with a knife edge
-26. Hand-operated chisel with a sawtooth edge
-27. Hand-operated chisel with a rotating blade
-28. Hand-cranked ratchet with a blade
-29. Hand-operated screwdriver with a blade
-30. Hand-operated saw with a curved blade
-31. Hand-cranked saw with a reciprocating blade
-32. Hand-cranked drill with a rotating blade
-33. Hand-cranked paddle with a blade
-34. Hand-cranked mortar and pestle with a blade
-35. Hand-cranked screw with a blade
-36. Hand-operated chisel with a rotating blade
-37. Hand-operated hammer with a spike
-38. Hand-cranked lever with a rotating blade
-39. Hand-cranked vice with a blade
-40. Hand-cranked mallet with a blade
-41. Hand-cranked spin-wheel with a blade
-42. Hand-cranked mill with a cutting blade
-43. Hand-operated grinding disk with a blade
-44. Hand-operated sifter with a blade
-45. Hand-operated press with a rotating blade
-46. Hand-cranked tool with a rotating blade
-47. Hand-cranked lever with a serrated blade
-48. Hand-cranked pulley with a blade
-49. Hand-cranked roller with a serrated blade
-50. Hand-cranked pliers with a blade
-51. Hand-cranked grinder with a blade
-52. Hand-cranked knife with serrated blades
-53. Hand-cranked saw with an oscillating blade
-54. Hand-cranked lollipop with a blade
-55. Hand-operated lever with a serrated blade
-56. Hand-cranked crusher with a rotating blade
-57. Hand-cranked pestle with a blade
-58. Hand-cranked slotted punch with a blade
-59. Hand-cranked chopper with a blade
-60. Hand-operated hammer with a spiky edge
-61. Hand-cranked lathe with a rotating blade
-62. Hand-cranked drill press with a blade
-63. Hand-cranked mandoline with a slicing blade
-64. Hand-operated tool with a curved blade
-65. Hand-cranked hand-guards with a blade
-66. Hand-cranked plane with a cutting blade
-67. Hand-cranked plane with a shearing blade
-68. Hand-operated mill with a rotating blade
-69. Hand-cranked plane with a reciprocating blade
-70. Hand-cranked plane with a sawtooth blade
-71. Hand-operated knife with a curved blade 
-72. Hand-cranked tool with a shearing blade
-73. Hand-operated plane with a jagged edge
-74. Hand-cranked lever with a sharp blade
-75. Hand-cranked pipe cutter with a blade
-76. Hand-cranked knife with a serrated blade
-77. Hand-operated blade with a spring-loaded blade
-78. Hand-operated blade with a two-handed grip
-79. Hand-cranked nutcracker with an oscillating blade
-80. Hand-cranked chisel with a rotating blade
-81. Hand-operated chisel with a sawtooth blade
-82. Hand-cranked grinder with a sawtooth blade
-83. Hand-cranked nutcracker with a jagged edge
-84. Hand-operated saw with a spinning blade
-85. Hand-operated lathe with a rotating blade
-86. Hand-cranked scoop with a blade
-87. Hand-cranked sifting machine with a blade
-88. Hand-cranked sickle with a serrated blade
-89. Hand-cranked winder with a blade
-90. Hand-cranked flasher with a blade
-91. Hand-cranked tongs with a serrated blade
-92. Hand-operated nutcracker with a sawtooth blade
-93. Hand-cranked wringer with a blade
-94. Hand-cranked thresher with a blade
-95. Hand-operated chisel with a two-handed grip
-96. Hand-cranked scissor with a blade
-97. Hand-cranked scissors with a serrated blade
-98. Hand-cranked chopper with a sawtooth blade
-99. Hand-operated press with a reciprocating blade
-100. Hand-operated sifter with a rotating blade
+1. A programmable thermostat that can be set to automatically adjust the temperature of a home at certain times of the day.
+""
+2. A smart window with temperature control properties that can help adjust the temperature of a room.
+""
+3. A solar panel system that could be installed on the roof of a home to generate energy.
+""
+4. A device that will monitor the energy consumption of the home and alert residents when usage is too high.
+""
+5. A programmable electric water heater that can be set to turn off at certain times of the day to reduce energy use.
+""
+6. A device that can automatically turn off the lights in a room when the room is unoccupied.
+""
+7. A smart power strip that can be programmed to turn off electronics when not in use.
+""
+8. A device that can detect and manage leaks in pipes to reduce water waste.
+""
+9. A device that can be used to monitor temperature and humidity levels and adjust the temperature accordingly.
+""
+10. A system that can optimize the energy consumption of all appliances in the home at once.
+""
+11. An insulation controller that can adjust the insulation of a home to reduce energy consumption.
+""
+12. A device that will monitor the usage of hot water in the home and alert when usage is too high.
+""
+13. A device that can monitor and adjust air flow in the home to reduce energy consumption.
+""
+14. An automated window closure system that will close the windows when the temperature outside is too high.
+""
+15. A device that can automatically turn off the hot water heater when not in use.
+""
+16. A device that can turn off the lights in a room when the room is not occupied and turn them back on when someone enters.
+""
+17. A device that can detect and stop drafts coming through windows to reduce energy loss.
+""
+18. A device that can be used to test the efficiency of a home’s insulation.
+""
+19. A system that can monitor the energy consumption of individual appliances in the home and alert when usage is too high.
+""
+20. A smart fan that can sense and adjust the temperature of a room accordingly when someone is present.
+""
+21. A device that can be set to automatically turn off electronics when not in use.
+""
+22. A device that can monitor and adjust indoor and outdoor temperature to reduce energy consumption.
+""
+23. An automated window shade system that can adjust the amount of light that enters a home to reduce energy consumption.
+""
+24. A programmable air conditioner that can be set to automatically adjust the temperature when the temperature outside is too high.
+""
+"25. A device that can detect, manage and prevent dangerous energy leaks from a home."
+""
+26. A device that can detect and manage humidity levels in a home to reduce energy consumption.
+""
+27. A device that can detect and manage air leaks in a home to reduce energy loss.
+""
+28. A device that can be used to monitor the energy consumption of a home and alert residents when usage is too high.
+""
+29. A device that can be used to detect any energy leaks present in a home.
+""
+30. An appliance timer that can be set to turn off any electronic appliances in the home when not in use.

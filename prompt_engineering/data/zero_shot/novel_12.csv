@@ -1,102 +1,41 @@
 ""
 ""
-1. Manual crank-style device with a screw-on nutcracker attachment
-2. Clockwork-powered crank-style device with a nutcracker attachment 
-3. Foot-powered pedal device with a nutcracker attachment 
-4. Spring-loaded platform with a clamp-on nutcracker attachment
-5. Simple lever-style device with a nutcracker attachment 
-6. Gravity-powered lever-style device with a nutcracker attachment 
-7. Manual rocking-style device with a nutcracker attachment 
-8. Hand-cranked rocking-style device with a nutcracker attachment 
-9. Human-powered rocking-style device with a nutcracker attachment 
-10. Mechanical press device with a nutcracker attachment 
-11. Hand-cranked press device with a nutcracker attachment 
-12. Manual twisting-style device with a nutcracker attachment 
-13. Hand-cranked twisting-style device with a nutcracker attachment 
-14. Foot-powered twisting-style device with a nutcracker attachment 
-15. Spring-loaded twisting-style device with a nutcracker attachment 
-16. Hand-cranked ratcheting device with a nutcracker attachment 
-17. Foot-powered ratcheting device with a nutcracker attachment 
-18. Manual grinding-style device with a nutcracker attachment 
-19. Hand-cranked grinding-style device with a nutcracker attachment 
-20. Foot-powered grinding-style device with a nutcracker attachment 
-21. Spring-loaded grinding-style device with a nutcracker attachment 
-22. Lever-style device with a hammer-like attachment 
-23. Gravity-powered lever-style device with a hammer-like attachment 
-24. Manual rocking-style device with a hammer-like attachment 
-25. Hand-cranked rocking-style device with a hammer-like attachment 
-26. Human-powered rocking-style device with a hammer-like attachment 
-27. Mechanical press device with a hammer-like attachment 
-28. Hand-cranked press device with a hammer-like attachment 
-29. Lever-style device with a nut-picker attachment 
-30. Gravity-powered lever-style device with a nut-picker attachment 
-31. Manual rocking-style device with a nut-picker attachment 
-32. Hand-cranked rocking-style device with a nut-picker attachment 
-33. Human-powered rocking-style device with a nut-picker attachment 
-34. Mechanical press device with a nut-picker attachment 
-35. Hand-cranked press device with a nut-picker attachment 
-36. Lever-style device with a shell-removal claw attachment 
-37. Gravity-powered lever-style device with a shell-removal claw attachment 
-38. Manual rocking-style device with a shell-removal claw attachment 
-39. Hand-cranked rocking-style device with a shell-removal claw attachment 
-40. Human-powered rocking-style device with a shell-removal claw attachment 
-41. Mechanical press device with a shell-removal claw attachment 
-42. Hand-cranked press device with a shell-removal claw attachment 
-43. Lever-style device with a nut-flinging attachment 
-44. Gravity-powered lever-style device with a nut-flinging attachment 
-45. Manual rocking-style device with a nut-flinging attachment 
-46. Hand-cranked rocking-style device with a nut-flinging attachment 
-47. Human-powered rocking-style device with a nut-flinging attachment 
-48. Mechanical press device with a nut-flinging attachment 
-49. Hand-cranked press device with a nut-flinging attachment 
-50. Lever-style device with a scissor-like attachment 
-51. Gravity-powered lever-style device with a scissor-like attachment 
-52. Manual rocking-style device with a scissor-like attachment 
-53. Hand-cranked rocking-style device with a scissor-like attachment 
-54. Human-powered rocking-style device with a scissor-like attachment 
-55. Mechanical press device with a scissor-like attachment 
-56. Hand-cranked press device with a scissor-like attachment 
-57. Lever-style device with a cone-shaped attachment 
-58. Gravity-powered lever-style device with a cone-shaped attachment 
-59. Manual rocking-style device with a cone-shaped attachment 
-60. Hand-cranked rocking-style device with a cone-shaped attachment 
-61. Human-powered rocking-style device with a cone-shaped attachment 
-62. Mechanical press device with a cone-shaped attachment 
-63. Hand-cranked press device with a cone-shaped attachment 
-64. Lever-style device with a rotating blade attachment 
-65. Gravity-powered lever-style device with a rotating blade attachment 
-66. Manual rocking-style device with a rotating blade attachment 
-67. Hand-cranked rocking-style device with a rotating blade attachment 
-68. Human-powered rocking-style device with a rotating blade attachment 
-69. Mechanical press device with a rotating blade attachment 
-70. Hand-cranked press device with a rotating blade attachment 
-71. Lever-style device with a spike-like attachment 
-72. Gravity-powered lever-style device with a spike-like attachment 
-73. Manual rocking-style device with a spike-like attachment 
-74. Hand-cranked rocking-style device with a spike-like attachment 
-75. Human-powered rocking-style device with a spike-like attachment 
-76. Mechanical press device with a spike-like attachment 
-77. Hand-cranked press device with a spike-like attachment 
-78. Lever-style device with a prying attachment 
-79. Gravity-powered lever-style device with a prying attachment 
-80. Manual rocking-style device with a prying attachment 
-81. Hand-cranked rocking-style device with a prying attachment 
-82. Human-powered rocking-style device with a prying attachment 
-83. Mechanical press device with a prying attachment 
-84. Hand-cranked press device with a prying attachment 
-85. Manual lever-style device with suction cup attachment 
-86. Gravity-powered lever-style device with suction cup attachment 
-87. Manual rocking-style device with suction cup attachment 
-88. Hand-cranked rocking-style device with suction cup attachment 
-89. Human-powered rocking-style device with suction cup attachment 
-90. Mechanical press device with suction cup attachment 
-91. Hand-cranked press device with suction cup attachment 
-92. Lever-style device with a knife-like attachment 
-93. Gravity-powered lever-style device with a knife-like attachment 
-94. Manual rocking-style device with a knife-like attachment 
-95. Hand-cranked rocking-style device with a knife-like attachment 
-96. Human-powered rocking-style device with a knife-like attachment 
-97. Mechanical press device with a knife-like attachment 
-98. Hand-cranked press device with a knife-like attachment 
-99. Lever-style device with a peeling-type attachment 
-100. Gravity-powered lever-style device with a peeling-type attachment
+1. A hand-held device that reads a home’s electricity consumption and provides an interactive interface to allow users to adjust settings such as appliance usage or lighting to save energy.
+""
+2. A voice-activated device that will switch off appliances when it senses no activity in the home.
+""
+3. A programmable thermostat that can detect occupancy and reset the temperature accordingly.
+""
+4. A device that switches off all electronics when the home is not in use.
+""
+5. A solar-powered battery that stores energy for later use.
+""
+6. A motion sensor that will switch off lights in the home when no one is in the room.
+""
+7. A device that optimizes the home’s energy usage based on energy availability from the grid.
+""
+8. A device that uses artificial intelligence to detect energy-wasting activities and recommend more energy-efficient ones.
+""
+9. An app for smartphones that monitors electricity usage and offers tips on how to save energy.
+""
+10. A device that tracks energy usage by appliance and provides feedback on how to reduce it.
+""
+11. A device that learns a home’s energy usage patterns and automatically adjusts settings to save energy.
+""
+12. An intelligent lighting system that dims or turns off lights when they’re not being used.
+""
+13. A device that can control all heating and cooling settings remotely via a mobile app.
+""
+14. A device that monitors energy usage and provides tailored advice and tips on how to save energy.
+""
+15. A thermostat that can be programmed to adjust the temperature automatically when the home is not in use.
+""
+16. A smart plug that can be used with multiple devices and will switch off power when not in use.
+""
+17. A device that can be mounted on walls and programmed to detect motion and switch lights off when no one is in the room.
+""
+18. A device that can store energy from peak periods and redistribute it to other times of the day to reduce energy costs.
+""
+19. A device that can detect the humidity levels in a home and adjust the temperature accordingly to conserve energy.
+""
+20. A device that uses automated scheduling to adjust appliance usage based on energy costs.
