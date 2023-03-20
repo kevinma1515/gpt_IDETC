@@ -1,0 +1,1 @@
+The scratch file is an outdated ipynb notebook file with a bunch of misc. code. Some of the code may not work since it is still operating on old CSV files, but the code can be leveraged for reference.
