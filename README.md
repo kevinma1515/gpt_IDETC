@@ -1,4 +1,9 @@
-# Conceptual Design Generation Using Large Language Models\
+# Conceptual Design Generation Using Large Language Models
+## Paper
+[Arxiv link](https://arxiv.org/abs/2306.01779)
+
+
+## Repo structure
 ├─ evaluations &emsp; &emsp;# code for computational evaluation study\
 │  ├─ base_evaluation.ipynb &emsp; &emsp;# evaluations for the "GPT-3 Base" generated design solutions\
 │  ├─ few_shot_evaluation.ipynb &emsp; &emsp;# evaluations for the "GPT-3 Zero-Shot" generated design solutions\
@@ -12,3 +17,4 @@
 ├─ sentence_embeddings &emsp; &emsp;# scratch file (outdated) and AmazonTurk Crowdsourced design solutions\
 │  ├─ data &emsp; &emsp;# CSV files of all the AmazonTurk Crowdsourced design solutions\
 │  ├─ scratch_file_outdated.ipynb &emsp; &emsp;# outdated scratch notebook with miscellaneous code\
+
