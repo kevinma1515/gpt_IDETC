@@ -2,6 +2,7 @@
 ## Paper
 [Arxiv link](https://arxiv.org/abs/2306.01779)
 
+![Overview method](./overview.jpg)
 
 ## Repo structure
 ├─ evaluations &emsp; &emsp;# code for computational evaluation study\
